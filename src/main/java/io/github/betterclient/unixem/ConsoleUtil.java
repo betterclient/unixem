@@ -1,6 +1,5 @@
 package io.github.betterclient.unixem;
 
-import org.teavm.jso.dom.html.HTMLCollection;
 import org.teavm.jso.dom.html.HTMLDocument;
 import org.teavm.jso.dom.html.HTMLElement;
 
