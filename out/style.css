@@ -1,0 +1,34 @@
+input {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  width: auto;
+  box-sizing: content-box;
+  resize: none;
+  white-space: nowrap;
+}
+
+input {
+  display: inline-block;
+  min-width: 1ch;
+  width: 80%;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: black;
+    font-family: 'FontOldSchool';
+}
+
+@font-face {
+    font-family: 'FontOldSchool';
+    src: url('font.ttf') format('truetype');
+}
