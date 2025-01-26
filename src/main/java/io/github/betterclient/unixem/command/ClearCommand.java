@@ -4,7 +4,7 @@ import io.github.betterclient.unixem.ConsoleUtil;
 
 public class ClearCommand extends Command {
     public ClearCommand() {
-        super("clear");
+        super("clear", "Clear the console");
     }
 
     @Override

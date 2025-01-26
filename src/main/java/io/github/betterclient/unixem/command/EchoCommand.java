@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 
 public class EchoCommand extends Command {
     public EchoCommand() {
-        super("echo text");
+        super("echo text", "Print out given text to console/file");
     }
 
     @Override

@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 public class LSCommand extends Command {
     public LSCommand() {
-        super("ls");
+        super("ls", "List all files in current directory");
     }
 
     @Override

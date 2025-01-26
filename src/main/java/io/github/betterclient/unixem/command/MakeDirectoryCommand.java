@@ -4,7 +4,7 @@ import io.github.betterclient.unixem.file.FileManager;
 
 public class MakeDirectoryCommand extends Command {
     public MakeDirectoryCommand() {
-        super("mkdir dirname");
+        super("mkdir dirname", "Create a directory");
     }
 
     @Override

@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CommandRunner {
-    static Map<String, Command> COMMAND_MAP = new HashMap<>();
+    public static Map<String, Command> COMMAND_MAP = new HashMap<>();
     static {
         COMMAND_MAP.put("clear", new ClearCommand());
         COMMAND_MAP.put("cat", new CatCommand());
@@ -16,6 +16,9 @@ public class CommandRunner {
         COMMAND_MAP.put("rm", new RMCommand());
         COMMAND_MAP.put("cd", new CDCommand());
         COMMAND_MAP.put("mkdir", new MakeDirectoryCommand());
+        COMMAND_MAP.put("pwd", new PrintWorkingDirectoryCommand());
+        COMMAND_MAP.put("help", new HelpCommand());
+        COMMAND_MAP.put("whoami", new WhoAmI());
     }
 
     public static void run(String text) {

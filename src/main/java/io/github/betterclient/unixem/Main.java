@@ -1,5 +1,6 @@
 package io.github.betterclient.unixem;
 
+import org.teavm.jso.dom.events.Event;
 import org.teavm.jso.dom.html.HTMLDocument;
 import org.teavm.jso.dom.html.HTMLInputElement;
 
@@ -21,5 +22,7 @@ public class Main {
                 CommandRunner.run(text);
             }
         });
+
+        document.addEventListener("contextmenu", Event::preventDefault);
     }
 }

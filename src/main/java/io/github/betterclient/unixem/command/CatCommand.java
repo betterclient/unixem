@@ -4,7 +4,7 @@ import io.github.betterclient.unixem.file.FileManager;
 
 public class CatCommand extends Command {
     public CatCommand() {
-        super("cat filename");
+        super("cat filename", "Displays all the text inside a file");
     }
 
     @Override

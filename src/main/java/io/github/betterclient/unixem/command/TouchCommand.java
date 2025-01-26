@@ -4,7 +4,7 @@ import io.github.betterclient.unixem.file.FileManager;
 
 public class TouchCommand extends Command {
     public TouchCommand() {
-        super("touch filename.txt");
+        super("touch filename.txt", "Create a file");
     }
 
     @Override

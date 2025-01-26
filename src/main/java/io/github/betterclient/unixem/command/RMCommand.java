@@ -4,7 +4,7 @@ import io.github.betterclient.unixem.file.FileManager;
 
 public class RMCommand extends Command {
     public RMCommand() {
-        super("rm filename");
+        super("rm filename", "Removes given file");
     }
 
     @Override

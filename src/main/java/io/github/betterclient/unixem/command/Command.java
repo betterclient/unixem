@@ -1,10 +1,11 @@
 package io.github.betterclient.unixem.command;
 
 public abstract class Command {
-    public final String correctUsage;
+    public final String correctUsage, description;
 
-    public Command(String correctUsage) {
+    public Command(String correctUsage, String description) {
         this.correctUsage = correctUsage;
+        this.description = description;
     }
 
     public void printUsage() {

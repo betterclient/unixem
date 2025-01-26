@@ -4,7 +4,7 @@ import io.github.betterclient.unixem.file.FileManager;
 
 public class CDCommand extends Command {
     public CDCommand() {
-        super("cd directory");
+        super("cd directory", "Change the current working directory");
     }
 
     @Override
